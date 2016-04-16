@@ -1,0 +1,25 @@
+{
+  "name": "parkinson-bot",
+  "version": "1.0.0",
+  "description": "Slack chat-bot for people living with Parkinson’s Disease ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdamba/parkinson-bot.git"
+  },
+  "author": "Christopher Dambamuromo <chridam@gmail.com> (http://chridam.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdamba/parkinson-bot/issues"
+  },
+  "homepage": "https://github.com/chrisdamba/parkinson-bot#readme",
+  "dependencies": {
+    "@slack/client": "^2.3.0",
+    "botkit": "^0.1.1",
+    "witbot": "^2.1.0"
+  }
+}
